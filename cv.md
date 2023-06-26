@@ -14,3 +14,25 @@ My goal is to become a successful frontend developer. I like to learn new things
 * Python
 * Git
 
+## Code Example
+
+```
+function square(number) {
+  return number * number;
+}
+```
+
+## Education 
+
+* State University of Aerospace Instrumentation
+* [CS50](https://pll.harvard.edu/course/cs50-introduction-computer-science)
+* [HTML Academy](https://htmlacademy.ru/)
+* RS School Course «[JavaScript/Front-end. Stage 0](https://rs.school/js-stage0/)» (in progress)
+
+## Languages 
+
+* English - B1
+* Russian - Native 
+* Finnish - A1
+
+
