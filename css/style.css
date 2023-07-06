@@ -1,0 +1,33 @@
+body {
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.centered-wrapper {
+    width: 1024px;
+    height: 1684px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 40px 0px rgba(0, 0, 0, 0.2);
+}
+
+.two-columns {
+    height: 1684px;
+    display: flex;
+}
+
+.triangle {
+    display: inline-block;
+    border-top: 200px solid #ffd0c2;
+    border-right: 1024px solid rgba(0, 0, 0, 0);
+    position: absolute;
+}
+
+.left-column {
+    width: 32%;
+    background-color: rgba(191, 191, 191, 0.1)
+}
+  
+.right-column {
+    width: 68%;
+}
