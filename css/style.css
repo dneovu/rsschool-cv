@@ -3,7 +3,7 @@ body {
     background-color: #ffffff;
 }
 
-.centered-wrapper {
+.centered-container {
     width: 1024px;
     height: 1684px;
     margin: 20px auto;
@@ -28,7 +28,7 @@ body {
     background-color: rgba(191, 191, 191, 0.1)
 }
 
-.left-side #avatar {
+.left-side .avatar {
     margin-left: 54px;
     margin-top: 100px;
     position: absolute;
@@ -83,7 +83,7 @@ main h3 {
 
 .pink-line-wrapper {
     margin-top: 14px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     width: 85px;
     height: 8px;
     background-color: #ffd0c2;
@@ -115,9 +115,97 @@ main {
 
 .skills ul li:nth-child(4) {
     margin-left: 185px;
+    margin-bottom: 50px;
 }
 
 .skills ul li img {
     margin-top: 5px;
 }
 
+.education ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.education ul li {
+    padding-left: 10px;
+}
+
+.education .education-years {
+    margin-bottom: 15px;
+    font-size: 12px;
+    color: #47516b;
+}
+
+.logo-wrapper {
+    margin-left: 6px;
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 3px 3px 15px rgba(148, 148, 148, 0.15);
+    transition: .7s ease;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.logo-wrapper:hover {
+    filter: drop-shadow(0 2px 20px rgba(148, 148, 148, 0.4));
+    transition: .5s;
+
+}
+
+.education img {
+    height: 42px;
+}
+
+.logo-info-wrapper {
+    padding-left: 78px;
+    margin-bottom: 40px;
+}
+
+.logo-info-wrapper p {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    line-height: 8px;
+    color: #79819a;
+}
+
+.education ul li:nth-child(3) {
+    margin-bottom: 65px;
+}
+
+.logo-info-wrapper h4 {
+    padding-top: 5px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #2e2e48;
+}
+
+.last-project-wrapper {
+    margin-bottom: 65px;
+    width: 223px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 3px 3px 15px rgba(148, 148, 148, 0.15);
+    transition: .7s ease;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.last-project-wrapper:hover {
+    filter: drop-shadow(0 2px 10px rgba(148, 148, 148, 0.4));
+    transition: .5s;
+}
+
+.last-project-wrapper img {
+    width: 213px;
+    height: 110px;
+}
