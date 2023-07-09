@@ -1,14 +1,18 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     box-sizing: border-box;
     background-color: #ffffff;
 }
 
 .centered-container {
+    margin: 20px auto 0 auto;
     width: 1024px;
     height: 1684px;
-    margin: 20px auto;
     background-color: #ffffff;
-    box-shadow: 10px 10px 40px 0px rgba(74, 73, 73, 0.2);
+    box-shadow: 10px 10px 40px 3px rgba(74, 73, 73, 0.2);
 }
 
 .sides {
@@ -74,8 +78,8 @@ body {
 }
 
 .left-items .left-item-name {
-    padding-top: 0px;
     margin-bottom: 3px;
+    padding-top: 0px;
     color: #79819a;
     font-size: 11px;
     font-weight: 400;
@@ -100,7 +104,7 @@ body {
 }
 
 .right-side {
-    margin: 150px 40px 20px 50px;
+    margin: 150px 40px 0 50px;
     width: 68%;
 }
 
@@ -259,4 +263,45 @@ main {
 .last-project-wrapper img {
     width: 213px;
     height: 110px;
+}
+
+.code-example code {
+    color: #2e2e48;
+    letter-spacing: 1.5px;
+}
+
+footer {
+    margin: 0 auto 20px auto;
+    display: flex;
+    align-items: center;
+    width: 1024px;
+    height: 80px;   
+    background-color: rgba(80, 80, 80, 0.8);
+    box-shadow: 10px 10px 40px 3px rgba(74, 73, 73, 0.2);
+
+}
+
+footer .github-link {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+footer nav ul li {
+    padding-left: 20px;
+    display: inline-block;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer nav ul li:nth-child(4) {
+    margin-right: 520px;
 }
