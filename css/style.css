@@ -305,3 +305,7 @@ footer nav ul li a:hover {
 footer nav ul li:nth-child(4) {
     margin-right: 520px;
 }
+
+#skills, #education, #last-project, #code-example {
+    visibility: hidden;
+}
